@@ -1,0 +1,17 @@
+[package]
+name = "prisma-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openssl = "0.10.66"
+openssl-sys = "0.9.103"
+serde = "1.0.210"
+
+[dependencies.prisma-client-rust-cli]
+git = "https://github.com/Brendonovich/prisma-client-rust"
+tag = "0.6.11"
+
+[dependencies.prisma-client-rust]
+git = "https://github.com/Brendonovich/prisma-client-rust"
+tag = "0.6.11"
